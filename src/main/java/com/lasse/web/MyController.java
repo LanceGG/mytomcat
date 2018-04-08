@@ -15,9 +15,8 @@ public class MyController {
 
     @RequestMapping(value = "/start", method = RequestMethod.GET)
     public @ResponseBody
-    String start(@RequestParam(value = "url", required = false) String url) {
+    void start(@RequestParam(value = "url", required = false) String url) {
         callTomcat.changeType(url);
-        return "start successful";
     }
 
     @RequestMapping(value = "/close", method = RequestMethod.POST)

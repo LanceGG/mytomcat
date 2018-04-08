@@ -5,12 +5,9 @@ import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.cookie.CookiePolicy;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.methods.PostMethod;
-import org.apache.http.HttpResponse;
 import org.springframework.stereotype.Component;
 
 import java.io.*;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
 /**
  * Created by Lance on 2018/4/8.

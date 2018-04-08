@@ -1,0 +1,4 @@
+com\lasse\MytomcatApplication.class
+com\lasse\util\DownloadWar.class
+com\lasse\util\CallTomcat.class
+com\lasse\web\MyController.class

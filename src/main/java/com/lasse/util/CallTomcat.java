@@ -60,15 +60,6 @@ public class CallTomcat {
             e.printStackTrace();
         }
         runtime.gc();//运行垃圾回收器
-//        String line = null;
-//        StringBuilder content = new StringBuilder();
-//        BufferedReader br = new BufferedReader(new InputStreamReader(process.getInputStream()));
-//        while ((line = br.readLine()) != null) {
-//            content.append(line).append("\r\n");
-//        }
-//        System.out.println(content.toString());
-
-
     }
 
     private static boolean deleteDir(File dir) {
