@@ -13,17 +13,17 @@ public class MyController {
     @Autowired
     private CallTomcat callTomcat;
 
-    @RequestMapping(value = "/start", method = RequestMethod.POST)
+    @RequestMapping(value = "/start", method = RequestMethod.GET)
     public @ResponseBody
     String start(@RequestParam(value = "url", required = false) String url) {
-        callTomcat.changeType(false, url);
-        return "start";
+        callTomcat.changeType(url);
+        return "start successful";
     }
 
     @RequestMapping(value = "/close", method = RequestMethod.POST)
     public @ResponseBody
     String close(@RequestParam(value = "url", required = false) String url) {
-        callTomcat.changeType(true, url);
-        return "close";
+        callTomcat.changeType(url);
+        return "close successful";
     }
 }

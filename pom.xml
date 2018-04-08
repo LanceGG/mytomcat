@@ -6,7 +6,7 @@
 	<groupId>com.lasse</groupId>
 	<artifactId>mytomcat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>mytomcat</name>
 	<description>Demo project for Spring Boot</description>
@@ -35,6 +35,21 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/net.databinder/dispatch-http -->
+		<dependency>
+			<groupId>net.databinder</groupId>
+			<artifactId>dispatch-http_2.10</artifactId>
+			<version>0.8.10</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
+		<dependency>
+			<groupId>commons-httpclient</groupId>
+			<artifactId>commons-httpclient</artifactId>
+			<version>3.1</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
