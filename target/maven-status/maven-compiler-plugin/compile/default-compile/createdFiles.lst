@@ -1,4 +1,6 @@
-com\lasse\MytomcatApplication.class
 com\lasse\util\DownloadWar.class
-com\lasse\util\CallTomcat.class
+com\lasse\entity\BiShun.class
 com\lasse\web\MyController.class
+com\lasse\MytomcatApplication.class
+com\lasse\util\BiShunGet.class
+com\lasse\util\CallTomcat.class
